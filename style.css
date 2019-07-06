@@ -1,0 +1,106 @@
+
+/* general rules */
+body{    
+    text-align: center;
+    font-size: 2rem;
+    margin:0;
+}
+h1{
+    margin:0 auto 0 auto;
+    font-size: 5em;
+    font-family: 'Sacramento', cursive;
+    color:#11999E;
+}
+h2{
+    font-size : 5rem;
+    font-family: 'Montserrat', cursive;
+    color:#11999E;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    color:#66BFBF;
+}
+a{
+    color:#66BFBF;
+}
+p{
+    color:#66BFBF;
+    margin:0;
+    padding:20px;
+}
+hr{
+    background-color:red;
+    padding:0;
+}
+.skill_row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: center;
+}
+.web_image{
+    width:25%;
+    border-radius:100%;
+    border: solid 1px;
+    float:left;
+}
+.app_image{
+    width:25%;
+    border-radius:100%;
+    border: solid 1px;
+    float:right;
+}
+.data_image{
+    width:25%;
+    border-radius:100%;
+    border: solid 1px;
+    float:left;
+}
+/* first part */
+.top-container{
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top: 80px;
+    height:25%;
+    padding: 20px;
+}
+.profile_pic{
+    margin-top : 50px;
+    border-radius: 100%;
+}
+.top-cloud{
+    position: absolute;
+    right:900px;
+    top:550px;
+}
+.bottom-cloud {
+    position: absolute;
+    left:900px;
+    top:500px;
+}
+.underline{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+/* midle part */
+.middle-container{
+    background-color: white;
+    margin-top: 0;
+}
+
+/* bottom part */
+.bottom-container{
+    background-color: #EAF6F6;
+    margin: 0;
+    padding: 10px;
+}
+
+.sm_icon{
+    color:#11999E;
+    border-radius: 100%;
+    margin:10px;
+}
+.title{
+    margin-top:20px;
+}
